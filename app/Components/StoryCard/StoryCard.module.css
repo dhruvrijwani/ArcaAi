@@ -2,18 +2,21 @@
   position: relative;
   height: 100vh;
   overflow: hidden;
+  background: #161510;
 }
 
 .storycard,
 .visioncard,
 .missioncard {
   height: 100vh;
+  border-radius: 5rem 5rem 0 0;
 }
 
 
 .storycard {
     background-color: #d3e4e6;
     padding: 80px 0;
+    
 }
 
 .storygrid {

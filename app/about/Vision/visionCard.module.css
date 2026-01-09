@@ -1,10 +1,13 @@
 .visioncard {
   background-color: #008584;
-  padding: 100px 0;
+  padding: 2rem 0;
+  border-radius: 3rem;
 }
 
-.section {
-  margin-bottom: 120px;
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
 }
 
 .grid {
@@ -59,11 +62,12 @@
 
 .missionIntro {
   font-family: var(--font-sora);
-  font-size: 1.1rem;
-  letter-spacing: 2px;
+  font-size: 1rem;
+  letter-spacing: 3.6px;
   line-height: 1.8;
   color: #ffffff;
-  max-width: 420px;
+  padding: 1.2rem 0;
+
 }
 
 .missionSub {
@@ -80,6 +84,34 @@
   padding: 0;
   margin: 0;
 }
+
+.missionItem {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.iconWrap {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+
+  flex-shrink: 0;
+}
+
+.iconWrap img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
 
 .missionList li {
   font-family: var(--font-sora);

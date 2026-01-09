@@ -30,18 +30,20 @@
   height: 25vh;
   margin: 2rem auto 3rem;
   background: #111;
+  transform-origin: top;
 }
 
 .text {
   font-family: var(--font-sora);
+  font-weight: 400;
   font-size: clamp(0.85rem, 1.2vw, 0.95rem);
   line-height: 1.8;
   letter-spacing: 0.12em;
   margin-bottom: 2rem;
   color: #111;
-  max-width: 520px;
-  
+  max-width: 600px;
 }
+
 
 .highlight {
   display: inline-block;
@@ -60,7 +62,19 @@
 }
 
 .right {
-    text-align: right;
-    margin-left: auto;
+  text-align: right;
+  margin-left: auto;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.greentext {
+  color: #637F4A;
+}
+
+.boldtext {
+  font-weight: 600;
+}

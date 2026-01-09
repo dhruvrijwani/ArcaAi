@@ -68,9 +68,9 @@
   display: block;
 }
 
-.headingOffset {
+/* .headingOffset {
   margin-left: 0.5rem;
-}
+} */
 
 @media (min-width: 768px) {
   .heading {

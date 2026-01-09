@@ -12,23 +12,39 @@ function OurStory() {
     const sectionRef = useRef(null);
 
     useGSAP(
-        () => {
-            gsap.from("[data-reveal]", {
-                scrollTrigger: {
-                    trigger: sectionRef.current,
-                    start: "top 80%",
-                    end: "bottom 20%",
-                    scrub: 0.6,
-                },
-                opacity: 0,
-                y: 40,
-                duration: 0.8,
-                ease: "power3.out",
-                stagger: 0.15,
-            })
-        },
-        {scope: sectionRef}
-    )
+      () => {
+        /* Divider line draw */
+        gsap.fromTo(
+          "[data-divider]",
+          { scaleY: 0 },
+          {
+            scaleY: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: "[data-divider]",
+              start: "top 80%",
+              end: "top 50%",
+              scrub: true,
+            },
+          }
+        );
+        /* Text reveal (slightly delayed, softer) */
+        gsap.from("[data-reveal]", {
+          opacity: 0,
+          y: 32,
+          ease: "power3.out",
+          stagger: 0.12,
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: "top 65%",
+            end: "bottom 20%",
+            scrub: 0.6,
+          },
+        });
+      },
+      { scope: sectionRef }
+    );
+
 
 
   return (
@@ -38,7 +54,7 @@ function OurStory() {
           Our <span>Story</span>
         </h2>
 
-        <div className={styles.divider} data-reveal />
+        <div className={styles.divider} data-divider />
 
         <p className={`${styles.text} ${styles.left}`} data-reveal>
           Healthcare today is burdened by fragmentation, administrative overload,
@@ -69,23 +85,24 @@ function OurStory() {
         </div>
         
 
-        <p className={styles.text} data-reveal>
-          Technology should amplify care, not overshadow it. AI should be
-          accountable, accurate, and empathetic. Healthcare should feel connected,
-          proactive, and human.
+        <p className={`${styles.text} ${styles.center}`} data-reveal>
+          <span className={styles.greentext}>Technology should amplify care, not overshadow it.</span> 
+        </p>
+        <p className={`${styles.text} ${styles.center}`} data-reveal>
+          AI should be accountable, accurate, and empathetic. Healthcare should feel connected, proactive, and human.
         </p>
 
-        <p className={styles.text} data-reveal>
+        <p className={`${styles.text} ${styles.center}`} data-reveal>
           By redesigning how information flows across the health ecosystem, ARCA
           transforms administrative complexity into clarity, strengthens
           public-health systems, and empowers caregivers to reclaim time with
           their patients.
         </p>
 
-        <p className={styles.text} data-reveal>
-          This is the shift from reactive treatment to proactive, preventive,
+        <p className={`${styles.text} ${styles.center}`} data-reveal>
+          <span className={styles.boldtext}>This is the shift from reactive treatment to proactive, preventive,
           and lifestyle-driven healthcare. ARCA AI builds the ecosystem that
-          makes this possible.
+          makes this possible.</span>
         </p>
       </div>
     </section>

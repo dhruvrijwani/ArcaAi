@@ -25,7 +25,8 @@
 
 .bgImage {
   object-fit: cover;
-  object-position: center;
+  object-position: center bottom;
+  width: 100%;
   transform: scaleX(-1);
 }
 
@@ -133,7 +134,7 @@
 }
 
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
 
   .heroGrid {
     grid-template-columns: 1fr;
@@ -145,12 +146,59 @@
     grid-column: 1;
     grid-row: 1;
   }
-
+  
   .heroGlass {
     grid-column: 1;
     grid-row: 3;
     display: flex;
     justify-content: center;
+    justify-self: start;
+  }
+
+
+  .glasscard {
+    max-width: 680px;
+    width: 100%;
+  }
+
+  .heroH1 {
+    font-size: clamp(2.6rem, 6vw, 3.6rem);
+  }
+} */
+
+@media (max-width: 1024px) {
+
+  .heroGrid {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+
+  .heroTitle {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .heroText {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    margin-top: 0;
+  }
+
+  .divider {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .heroButtons {
+    grid-column: 1;
+    grid-row: 4;
+    flex-wrap: wrap;
+  }
+
+  .heroGlass {
+    grid-column: 1;
+    grid-row: 5;
     justify-self: start;
   }
 
@@ -163,6 +211,9 @@
     font-size: clamp(2.6rem, 6vw, 3.6rem);
   }
 }
+
+
+
 
 @media (max-width: 600px) {
   .glasscard {
