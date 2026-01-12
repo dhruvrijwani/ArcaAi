@@ -8,7 +8,7 @@ function Benefits() {
     <section className={styles.Benefits}>
       <div className="swcontainer">
         <div className={styles.sectionWrapper}>
-            <h2 className={styles.title}> <span className={styles.neongreen}>Benefits</span> for Payers</h2>
+            <h2 className={styles.title}> <span className={styles.boldtext}>Benefits</span> for Providers</h2>
             <div className={styles.grid}>
                 {BENEFITS.map((item) => (
                 <BenefitsCard
