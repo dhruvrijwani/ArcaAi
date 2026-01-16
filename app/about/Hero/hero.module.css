@@ -49,26 +49,26 @@
 }
 
 .glasscard {
-  background: radial-gradient(
-  rgba(255, 255, 255, 0.12),
-  rgba(255, 255, 255, 0)
+    background: radial-gradient(
+  rgba(255, 255, 255, 0.15),
+  rgba(255, 255, 255, 0.15)
   );
 
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 
   padding: clamp(1.75rem, 4vw, 3rem);
   border-radius: clamp(1.25rem, 3vw, 2rem);
 
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  /* border: 1px solid rgba(255, 255, 255, 0.35); */
   color: #111;
 
   max-width: 36rem;
   width: 100%;
 
-  box-shadow:
+  /* box-shadow:
     0 12px 30px rgba(0, 0, 0, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    inset 0 1px 0 rgba(255, 255, 255, 0.6); */
 }
 
 

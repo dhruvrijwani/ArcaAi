@@ -27,7 +27,7 @@
 /* VISION LAYOUT */
 .twocol {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 6rem;
   align-items: center;
 }
@@ -45,11 +45,11 @@
 
 .cardDesc {
   font-family: var(--font-sora);
-  font-size: 1.4rem;
-  letter-spacing: 2px;
+  font-size: 1.2rem;
+  letter-spacing: 3.6px;
   line-height: 1.8;
   color: #ffffff;
-  max-width: 520px;
+  padding: 1.2rem 0;
 }
 
 /* MISSION */
@@ -62,7 +62,8 @@
 
 .missionIntro {
   font-family: var(--font-sora);
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
   letter-spacing: 3.6px;
   line-height: 1.8;
   color: #ffffff;
@@ -73,10 +74,11 @@
 .missionSub {
   margin-top: 2rem;
   font-family: var(--font-sora);
-  font-size: 0.85rem;
+  font-weight: 600;
+  font-size: 1rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 .missionList {
