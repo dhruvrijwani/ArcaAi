@@ -40,7 +40,7 @@ const Navbar = () => {
     },
     // { label: "Press", href: "/press" },
     { label: "Contact Us", href: "/contactus" },
-    // { label: "Blog", href: "/blog" },
+    { label: "Blog", href: "/blog" },
   ];
 
   const [menuOpen, setMenuOpen] = useState(false);

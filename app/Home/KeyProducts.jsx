@@ -1,23 +1,23 @@
 import React from "react";
-import "./KeyProducts.css";
+import styles from "./KeyProducts.module.css";
 import ProductCard from "../Components/ProductCard/ProductCard";
 import Badge from "../Components/Badge/Badge";
 import Button from "../Components/Button/Button";
 
 function KeyProducts() {
   return (
-    <section className="keyProducts">
+    <section className={styles.keyProducts}>
       <div className="swcontainer">
-        <div className="sectionWrapper">
-            <h2 className="title">Key Products</h2>
-            <p className="description">
+        <div className={styles.sectionWrapper}>
+            <h2 className={styles.title}>Key Products</h2>
+            <p className={styles.description}>
               ARCA’s proprietary AI modules are built from scratch. Every
               product blends clinical expertise with robust engineering.
             </p>
 
             <Badge bgColor="#bce9ea" textColor="#111">Featured Solutions:</Badge>
 
-            <div className="productGrid">
+            <div className={styles.productGrid}>
               <ProductCard
               icon="/Icons/Icon1.png"
               title="Ambient Listening AI"

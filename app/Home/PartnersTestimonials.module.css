@@ -104,15 +104,43 @@
   padding: 2.5rem 3rem;
   border-radius: 28px;
 
-  background: radial-gradient(
+  /* background: radial-gradient(
       120% 120% at 0% 0%,
       rgba(255, 255, 255, 0.08),
       rgba(0, 0, 0, 0.55)
     ),
     linear-gradient(135deg, #2a2a2a, #0f0f0f);
 
+    backdrop-filter: blur(55px);
+  -webkit-backdrop-filter: blur(55px); */
+  
+
   color: #ffffff;
   overflow: hidden;
+}
+
+.card1 {
+
+  background: radial-gradient(
+    120% 120% at 0% 0%,
+  rgba(255, 255, 255, 0.05),
+  rgba(0, 0, 0, 0.35)
+  );
+
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+}
+
+.card2 {
+  background: radial-gradient(
+    120% 120% at 100% 0%,
+  rgba(255, 255, 255, 0.05),
+  rgba(0, 0, 0, 0.35)
+  );
+
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
 .rightalign {

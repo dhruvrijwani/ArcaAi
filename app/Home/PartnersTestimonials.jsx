@@ -23,7 +23,7 @@ function PartnersTestimonials() {
                 <h2 className={styles.title}>What our partners say</h2>
     
                 <div className={styles.testimonials}>
-                    <div className={styles.testimonialCard}>
+                    <div className={`${styles.testimonialCard} ${styles.card1}`}>
                         <div className={styles.testimonialBrand}>
                             <Image
                             src="/testimonialsimage.webp"
@@ -44,7 +44,7 @@ function PartnersTestimonials() {
                         </p>
 
                     </div>
-                    <div className={`${styles.testimonialCard} ${styles.rightalign}`}>
+                    <div className={`${styles.testimonialCard} ${styles.rightalign} ${styles.card2}`}>
                         <div className={styles.testimonialBrand}>
                             <Image
                             src="/testimonialsimage.webp"

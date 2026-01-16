@@ -34,9 +34,15 @@
 
 .cardDesc {
     font-family: var(--font-sora);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.highlight {
+    color: rgba(99, 127, 74, 1);
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 .storyflex {

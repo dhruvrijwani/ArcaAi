@@ -169,15 +169,9 @@ function Hero() {
                 {/* ===============================
                     CHANGED: timeline wrapper + line
                 =============================== */}
-                <div
-                  ref={timelineWrapRef}
-                  className={styles.timeline}
-                >
-                  <span
-                    ref={timelineLineRef}
-                    className={styles.timelineLine}
-                  />
-
+                <div ref={timelineWrapRef} className={styles.timeline}>
+                  <span ref={timelineLineRef} className={styles.timelineLine}/>
+                  
                   <div className={styles.timelineItem}>
                     <span className={styles.timelineDot}></span>
                     <div className={styles.timelineContent}>

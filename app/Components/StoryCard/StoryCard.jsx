@@ -68,7 +68,7 @@ useGSAP(
 
                         <div className={styles.storyflex}>
                             <div className={styles.leftinfo}>
-                            <p className={styles.cardDesc}>A healthcare system that listens first</p>
+                            <p className={`${styles.cardDesc} ${styles.highlight}`}>A healthcare system that listens first</p>
                             <p className={styles.cardDesc}>
                                 The Digital Ark of Anno-Domini : Arca is the ark which sails in the
                                 flood of digital data similar to Noah’s Ark that survived the great flood.
