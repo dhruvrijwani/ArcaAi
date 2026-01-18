@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Leadership.module.css'
-import Button from '../Components/Button/Button'
-import LeadershipCards from '../Components/Leadership/LeadershipCard'
-import FinalCta from '../Components/FinalCta/FinalCta'
 import { leadershipData } from './leadershipdata'
+import Button from '@/app/Components/Button/Button'
+import FinalCta from '@/app/Components/FinalCta/FinalCta'
+import LeadershipCards from '@/app/Components/Leadership/LeadershipCard'
 
 function Leadership() {
   return (

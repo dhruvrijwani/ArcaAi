@@ -2,10 +2,10 @@
 
 import React, { useRef } from "react";
 import styles from "./Hero.module.css";
-import Button from "../Components/Button/Button";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Button from "@/app/Components/Button/Button";
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Numbers.module.css'
-import NumbersCard from '../Components/NumbersCard/NumbersCard'
+import NumbersCard from '@/app/Components/NumbersCard/NumbersCard'
 
 
 function Numbers() {

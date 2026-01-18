@@ -38,7 +38,7 @@ const Navbar = () => {
         { label: "Provider", href: "/product/provider" },
       ],
     },
-    // { label: "Press", href: "/press" },
+    { label: "Press", href: "/press" },
     { label: "Contact Us", href: "/contactus" },
     { label: "Blog", href: "/blogs" },
   ];

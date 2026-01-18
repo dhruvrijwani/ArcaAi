@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './PartnersTestimonials.module.css'
-import Button from '../Components/Button/Button'
 import Image from 'next/image'
-import Img from '../../public/testimonialsimage.webp'
+import Img from '@/public/testimonialsimage.webp'
+import Button from '@/app/Components/Button/Button'
 
 function PartnersTestimonials() {
   return (

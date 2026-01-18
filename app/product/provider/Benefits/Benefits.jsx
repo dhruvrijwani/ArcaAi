@@ -21,9 +21,6 @@ function Benefits() {
                 />
                 ))}
             </div>
-
-
-
         </div>
       </div>
     </section>

@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Partners.module.css'
-import PartnerCarousel from '../Components/PartnersCarousel/PartnerCarousel'
-import Badge from '../Components/Badge/Badge'
+import Badge from '@/app/Components/Badge/Badge'
+import PartnerCarousel from '@/app/Components/PartnersCarousel/PartnerCarousel'
+
 
 function Partners() {
   return (

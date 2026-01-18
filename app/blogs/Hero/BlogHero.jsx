@@ -15,10 +15,6 @@ function BlogHero() {
           alt="ARCA AI hero background"
           fill
           priority
-          // 1. Tell browser this image takes up the full viewport width
-          sizes="100vw" 
-          // 2. Increase quality for hero images (default is 75)
-          quality={100}
           className={styles.bgImage}
         />
       </div>  
