@@ -17,6 +17,7 @@
     font-size: 3rem;
     text-transform: uppercase;
     line-height: 1.15;
+    margin-top: 2rem;
 }
 
 
@@ -64,7 +65,7 @@
 
 .frame {
   position: relative;
-  padding: clamp(3rem, 6vw, 5rem);
+  padding: clamp(1rem, 6vw, 5rem);
   border-radius: 20px;
 
   background: #fff;
