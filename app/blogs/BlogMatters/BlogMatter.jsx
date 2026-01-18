@@ -2,7 +2,8 @@ import styles from './BlogMatter.module.css'
 
 function BlogMatter() {
   return (
-    <section className={styles.BlogMatter}>
+    <section className={styles.SectionPadding}>
+    <div className={styles.BlogMatter}>
       <div className="swcontainer">
         <div className={styles.flex}>
         <section className={styles.section}>
@@ -59,6 +60,7 @@ function BlogMatter() {
         </div>
 
       </div>
+    </div>
     </section>
   )
 }

@@ -1,3 +1,7 @@
+.SectionPadding {
+  padding: 0 10px;
+}
+
 .BlogMatter {
   background: #1D2F30;
   padding: 2rem 0;

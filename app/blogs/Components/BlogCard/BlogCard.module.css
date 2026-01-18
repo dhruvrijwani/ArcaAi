@@ -230,3 +230,40 @@
     min-height: 240px;
   }
 }
+
+.foot_label {
+  font-family: var(--font-trajanpro);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.meta_date {
+  font-family: var(--font-sora);
+  text-transform: uppercase;
+  /* color: #414141; */
+  font-size: 0.75rem;
+}
+
+.meta_type {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 3px;
+  padding: 5px 4px;
+
+  background: #f7f7f4;
+
+  font-family: var(--font-sora);
+  font-size: 0.75rem;
+  /* text-transform: uppercase; */
+  color: #1f2d2b;
+}
+
+/* Green square accent */
+.meta_type::before {
+  content: "";
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+  background: #a7e36c;
+}
