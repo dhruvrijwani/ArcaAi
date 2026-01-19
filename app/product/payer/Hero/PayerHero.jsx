@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./PayerHero.module.css";
-import PayerImg from "@/public/Bgimages/payer.webp";
+import PayerImg from "@/public/Bgimages/Payer2.webp";
 import Button from "@/app/Components/Button/Button";
 
 function PayerHero() {

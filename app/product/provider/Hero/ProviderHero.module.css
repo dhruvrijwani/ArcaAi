@@ -27,7 +27,7 @@
   object-fit: cover;
   object-position: center bottom;
   width: 100%;
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
 }
 
 
@@ -94,7 +94,7 @@
   letter-spacing: clamp(0.04em, 0.3vw, 0.08em);
   font-family: var(--font-sora);
   font-weight: 400;
-  color: #fff;
+  color: #111;
 }
 
 

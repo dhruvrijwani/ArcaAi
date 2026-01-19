@@ -7,6 +7,8 @@
 
 
 .buttonLink {
+    all: unset;                /* nukes all browser defaults */
+    box-sizing: border-box;
     cursor: pointer;
     display: inline-flex;
     font-weight: 400;
@@ -28,9 +30,10 @@
 .textWrap {
     display: flex;
     align-items: center;
-    background: #2acfdaff;
+    background: #008584;
     border-radius: 12px 0 0 12px;
-    color: var(--button-text-color);
+    font-family: var(--font-sora);
+    color: #fff;
     display: inline-flex;
     font-size: max(.75rem, min(calc(.75rem + .002 * (100vw - 27.5rem)), .875rem));
     justify-content: flex-start;

@@ -5,6 +5,7 @@ import BlogCard from '../Components/BlogCard/BlogCard'
 import blogCards from './blogCards'
 import blogCardPresets from './blogCardPresets';
 import { useState } from 'react';
+import ShapedButton from '@/app/Components/ShapedButton/ShapedButton';
 
 
 const ITEMS_PER_PAGE = 6;
@@ -49,12 +50,17 @@ function FeaturedArticles() {
             {/* Button */}
           {blogCards.length > ITEMS_PER_PAGE && (
             <div className={styles.buttonWrapper}>
-              <button
+              {/* <button
                 className={styles.toggleButton}
                 onClick={handleToggle}
               >
                 {isAllVisible ? 'Show less' : 'Show more'}
-              </button>
+              </button> */}
+              <ShapedButton
+                label={isAllVisible ? "Show less" : "Show more"}
+                onClick={handleToggle}
+              />
+
               
             </div>
             

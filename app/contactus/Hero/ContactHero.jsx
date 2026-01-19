@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./ContactHero.module.css";
-import ContactImg from "@/public/Bgimages/contact.webp";
+import ContactImg from "@/public/Bgimages/Contact2.webp";
 
 function ContactHero() {
   return (
