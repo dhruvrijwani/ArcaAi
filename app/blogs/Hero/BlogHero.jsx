@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./BlogHero.module.css";
-import BlogHeroImg from "@/public/Bgimages/BlogHero.webp";
+import BlogHeroImg from "@/public/Bgimages/Blog2.webp";
 import CardImg from "@/public/Blog-hero-card.png";
 
 

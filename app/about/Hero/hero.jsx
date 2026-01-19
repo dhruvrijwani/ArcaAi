@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./hero.module.css";
-import AboutImg from "@/public/Bgimages/about.webp";
+import AboutImg from "@/public/Bgimages/About2.webp";
 
 function Hero() {
   return (
