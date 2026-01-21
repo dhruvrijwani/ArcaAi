@@ -73,13 +73,15 @@
 }
 
 .glasscard {
-  background: radial-gradient(
-  rgba(255, 255, 255, 0.15),
-  rgba(255, 255, 255, 0.15)
-  );
+  /* background: radial-gradient(
+  rgba(255, 255, 255, 0.10),
+  rgba(255, 255, 255, 0.10)
+  ); */
+  /* 1. Translucent glass fill */
+  background: rgba(255, 255, 255, 0.12);
 
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(12px);
+  /* -webkit-backdrop-filter: blur(15rem); */
   padding: 3rem;
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.05);
