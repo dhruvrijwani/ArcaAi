@@ -4,7 +4,8 @@ import Image from "next/image";
 
 function VisionCard() {
   return (
-    <section className={styles.visioncard}>
+    <section className={styles.SectionPadding}>
+    <div className={styles.visioncard}>
       <div className="swcontainer">
         <div className={styles.flex}>
         {/* VISION */}
@@ -82,6 +83,7 @@ function VisionCard() {
         </div>
 
       </div>
+    </div>
     </section>
   );
 }

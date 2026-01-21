@@ -146,27 +146,15 @@
   padding: 2rem 1.5rem;
   transform: translateY(100%);
   z-index: 3;
-
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-
   font-family: var(--font-sora);
   font-weight: 400;
-
-  /* 🔑 Fluid typography */
   font-size: clamp(0.75rem, 1.2vw, 0.95rem);
   line-height: 1.6;
   letter-spacing: clamp(0.12em, 0.3vw, 0.22em);
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-  font-family: var(--font-sora);
-  font-weight: 400;
-  font-size: 1rem;
-  letter-spacing: 3.6px;
-  line-height: 2; */
   overflow: hidden;
 }
 

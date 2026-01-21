@@ -26,6 +26,7 @@ function Leadership() {
                           image={leader.image}
                           name={leader.name}
                           designation={leader.designation}
+                          description={leader.description}
                           isFeatured={isCenterCard}
                         />
                       );

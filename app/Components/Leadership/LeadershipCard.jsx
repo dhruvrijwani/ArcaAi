@@ -52,11 +52,14 @@ export default function LeadershipCards({
   image,
   name,
   designation,
+  description,
   isFeatured = false,
 }) {
 
   const cardRef = useRef(null);
   const descRef = useRef(null);
+
+  
 
   const handleEnter = () => {
     gsap.to(descRef.current, {
@@ -84,11 +87,7 @@ export default function LeadershipCards({
         <p className={styles.role}>{designation}</p>
       </div>
       <div ref={descRef} className={styles.description}>
-        <p>
-          With over 15 years of experience in automation and enterprise delivery,
-          including at DXC Technologies, Rohit leads ARCA’s vision of combining
-          clinical empathy with responsible AI.
-        </p>
+        <p>{description}</p>
       </div>
     </div>
   );

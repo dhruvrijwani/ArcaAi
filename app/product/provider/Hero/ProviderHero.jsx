@@ -17,7 +17,7 @@ function ProviderHero() {
           priority
           className={styles.bgImage}
         />
-      </div>  
+      </div>
 
 
       <div className={styles.swcontainer}>

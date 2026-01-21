@@ -1,3 +1,7 @@
+.SectionPadding {
+  padding: 0 10px;
+}
+
 .visioncard {
   background-color: #008584;
   padding: 2rem 0;
