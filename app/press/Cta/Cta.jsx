@@ -5,8 +5,9 @@ import PressCta from '../Components/PressCta/PressCta'
 function Cta() {
   return (
     <section className={styles.ctasection}>
-
-            <PressCta />
+      <div className="swcontainer">
+        <PressCta />
+      </div>
 
     </section>
   )

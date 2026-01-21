@@ -5,8 +5,9 @@ import BlogCta from '../Components/BlogCta/BlogCta'
 function Cta() {
   return (
     <section className={styles.ctasection}>
-
-            <BlogCta />
+      <div className="swcontainer">
+        <BlogCta />
+      </div>
 
     </section>
   )
