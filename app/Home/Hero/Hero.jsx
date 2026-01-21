@@ -85,7 +85,7 @@ function Hero() {
           muted
           playsInline
           preload="metadata"
-          // poster="/Videos/Arca_Hero_Poster.webp"
+          poster="/Bgimages/Hero_Poster.webp"
         >
           {/* <source
             src="https://integratedbiosciences.com/wp-content/uploads/2025/10/integrated-loop-optimized.mp4"
