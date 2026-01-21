@@ -125,6 +125,16 @@
         margin-bottom: 10px;
     }
 
+    .rightimg {
+        display: none;
+    }
+
+    .storycard,
+    .visioncard,
+    .missioncard {
+    border-radius: 2rem 2rem 0 0;
+    }
+
 }
 
 .visioncard {
