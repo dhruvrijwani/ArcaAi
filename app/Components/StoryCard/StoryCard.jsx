@@ -90,7 +90,7 @@ useGSAP(
                             <div className={styles.rightimg}>
                             <div className={styles.imageWrap}>
                             <Image
-                                src='/Story/story.webp'
+                                src='/Story/Story2.webp'
                                 alt="Vision visual"
                                 fill
                                 priority
@@ -122,10 +122,14 @@ useGSAP(
                             </div>
 
                             <div className={styles.visionimg}>
-                                <img
-                                    src="/Story/mission.webp"
-                                    alt="Vision visual"
-                                    loading="lazy"
+                                <video
+                                className={styles.video}
+                                src="/Videos/Vision_video2.mp4"
+                                autoPlay
+                                muted
+                                loop
+                                playsInline
+                                preload="metadata"
                                 />
                             </div>
                         </div>
@@ -136,12 +140,12 @@ useGSAP(
                     <div className="swcontainer">
                         <div className={styles.missiongrid}>
                             <div className={styles.missionflex}>
-                                <h1 className={styles.cardTitle}>Mission</h1>
+                                <h1 className={`${styles.cardTitle} ${styles.missionTitle}`}>Mission</h1>
                                 <div className={styles.descwrap}>
-                                    <p className={styles.cardDesc}>
+                                    <p className={`${styles.cardDesc} ${styles.missionDesc}`}>
                                     To bring in empathy, ethical clarity, efficiency and precision to
                                     healthcare providers by enabling smarter collaboration between
-                                    providers, patients, payers and pharma
+                                    providers, patients, payers and pharma.
                                     </p>
                                 </div>
                             </div>

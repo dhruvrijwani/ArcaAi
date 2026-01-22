@@ -48,7 +48,7 @@ function PayerHero() {
           <div className={styles.heroGlass}>
             <div className={styles.glasscard}>
               <p className={styles.pText}>
-                MedVeritas is ARCA’s advanced AI platform designed to help insurers process claims with greater accuracy, detect fraud in real time, and strengthen trust across the healthcare network.
+                TrueClaim is ARCA’s advanced AI platform designed to help insurers process claims with greater accuracy, detect fraud in real time, and strengthen trust across the healthcare network.
               </p>
             </div>
           </div>

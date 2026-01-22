@@ -1,11 +1,7 @@
-/* =========================
-   Wrapper
-========================= */
 
-/* Full section */
 .section {
   width: 100%;
-  overflow-x: hidden; /* prevents page scroll */
+  overflow-x: hidden; 
 }
 
 /* Full-bleed wrapper */

@@ -16,7 +16,7 @@ function VisionCard() {
             <div className={styles.twocol}>
               <div className={styles.imageWrap}>
                 <Image
-                  src="/Story/story.webp"
+                  src="/Story/Story2.webp"
                   alt="Vision visual"
                   fill
                   priority

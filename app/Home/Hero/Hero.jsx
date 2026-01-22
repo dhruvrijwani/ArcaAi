@@ -113,11 +113,11 @@ function Hero() {
               <div></div>
 
               <div className={styles.heroButtons}>
-                <Button variant="filled" bgColor="#D6FDFF" textColor="#000">
+                <Button href="/contactus" variant="filled" bgColor="#D6FDFF" textColor="#000">
                   Speak to our team
                 </Button>
 
-                <Button textColor="#D6FDFF" borderColor="#B1F0E0">
+                <Button href='/product/provider' textColor="#D6FDFF" borderColor="#B1F0E0">
                   Check out our Products
                 </Button>
               </div>

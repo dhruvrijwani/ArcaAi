@@ -4,6 +4,7 @@ import { useState } from 'react';
 import styles from './Tabs.module.css';
 import { clinicianAccordionData, hospitalAccordionData } from '../Accordion/constants';
 import Accordion from '../Accordion/Accordion';
+import FeatureComparison from '../../FeatureComparison/FeatureComparison';
 
 export default function Tabs() {
   const [activeTab, setActiveTab] = useState('clinician');
@@ -30,7 +31,10 @@ export default function Tabs() {
       {/* Tabs Content */}
       <div className={styles.content}>
         {activeTab === 'clinician' && (
-            <Accordion items={clinicianAccordionData} />
+            <>
+              <Accordion items={clinicianAccordionData} />
+              <FeatureComparison />
+            </>
           )}
         {activeTab === 'hospital' && (
             <Accordion items={hospitalAccordionData} />

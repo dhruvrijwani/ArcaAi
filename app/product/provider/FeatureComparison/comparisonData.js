@@ -1,7 +1,7 @@
 export const productColumns = [
   { key: 'spark', label: 'Arca Spark' },
   { key: 'lite', label: 'Arca Pulse Lite' },
-  { key: 'plus', label: 'Arca Pulse Plus' },
+  // { key: 'plus', label: 'Arca Pulse Plus' },
   { key: 'pro', label: 'Arca Pulse Pro' },
   { key: 'lifestyle', label: 'Arca Pulse Lifestyle' },
 ];
@@ -15,7 +15,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -25,7 +25,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -35,7 +35,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -45,7 +45,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -60,7 +60,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -70,7 +70,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -80,7 +80,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -90,7 +90,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -105,7 +105,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -115,7 +115,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -125,7 +125,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -135,7 +135,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -145,7 +145,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -160,7 +160,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -170,7 +170,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -180,7 +180,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -190,7 +190,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -200,7 +200,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: true,
-          plus: true,
+          // plus: true,
           pro: true,
           lifestyle: true,
         },
@@ -215,7 +215,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: false,
-          plus: true,
+          // plus: true,
           pro: false,
           lifestyle: false,
         },
@@ -230,7 +230,7 @@ export const comparisonSections = [
         availability: {
           spark: true,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: true,
           lifestyle: true,
         },
@@ -240,7 +240,7 @@ export const comparisonSections = [
         availability: {
           spark: true,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: true,
           lifestyle: true,
         },
@@ -250,7 +250,7 @@ export const comparisonSections = [
         availability: {
           spark: true,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: true,
           lifestyle: true,
         },
@@ -260,7 +260,7 @@ export const comparisonSections = [
         availability: {
           spark: true,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: true,
           lifestyle: true,
         },
@@ -275,7 +275,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: false,
           lifestyle: true,
         },
@@ -290,7 +290,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: false,
           lifestyle: false,
         },
@@ -300,7 +300,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: false,
           lifestyle: false,
         },
@@ -310,7 +310,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: false,
           lifestyle: false,
         },
@@ -325,7 +325,7 @@ export const comparisonSections = [
         availability: {
           spark: false,
           lite: false,
-          plus: false,
+          // plus: false,
           pro: false,
           lifestyle: false,
         },

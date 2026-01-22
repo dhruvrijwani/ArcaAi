@@ -39,7 +39,7 @@ const Navbar = () => {
       ],
     },
     { label: "Press", href: "/press" },
-    { label: "Contact Us", href: "/contactus" },
+    // { label: "Contact Us", href: "/contactus" },
     { label: "Blog", href: "/blogs" },
   ];
 
@@ -132,13 +132,15 @@ const Navbar = () => {
     <>
       <nav className={styles.navbar}>
         <div className={`${styles.desktopLogoPill} ${isScrolled ? styles.Logopill : ""}`}>
-           <div className={styles.logoGroup}>
-            <Image
-              src={isScrolled ? BlackLogo : Logo}
-              alt="Arca Ai"
-              priority
-            />
-           </div>
+            <Link href="/" aria-label="Go to homepage">
+              <div className={styles.logoGroup}>
+                <Image
+                  src={isScrolled ? BlackLogo : Logo}
+                  alt="Arca Ai"
+                  priority
+                />
+              </div>
+            </Link>
         </div>
 
         <div className={`${styles.pill} ${styles.desktopNavPill}`}>
@@ -171,18 +173,20 @@ const Navbar = () => {
             );
           })}
 
-          <button className={styles.ctaButton}>
+          <Link href="/contactus" className={styles.ctaButton}>
             Request A Demo
-          </button>
+          </Link>
         </div>
         
         <div className={`${styles.pill} ${styles.mobilePill}`}>
-           <div className={styles.logoGroup}>
-             <Image
-              src={BlackLogo}
-              alt="Arca Ai"
-            />
-           </div>
+            <Link href="/" aria-label="Go to homepage">
+              <div className={styles.logoGroup}>
+                <Image
+                  src={BlackLogo}
+                  alt="Arca Ai"
+                />
+              </div>
+            </Link>
            
            <button
             className={styles.menuButton}
@@ -232,6 +236,15 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
+
+          <Link
+            href="/contactus"
+            ref={(el) => (menuLinksRef.current[mobileLinks.length] = el)}
+            className={styles.menuLinkItem}
+            onClick={() => setMenuOpen(false)}
+          >
+            Request A Demo
+          </Link>
         </div>
 
 

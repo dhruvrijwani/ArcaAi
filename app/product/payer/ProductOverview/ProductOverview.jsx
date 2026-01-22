@@ -23,7 +23,7 @@ function ProductOverview() {
             <h2 className={styles.title}>Product Overview</h2>
 
             <p className={styles.subtitle}>
-              <span>MedVeritas:</span> Intelligent Claim & Fraud Management for
+              <span>TrueClaim:</span> Intelligent Claim & Fraud Management for
               Modern Healthcare
             </p>
 
@@ -36,12 +36,12 @@ function ProductOverview() {
               </p>
 
               <p>
-                MedVeritas brings clarity back into the system.
+                TrueClaim brings clarity back into the system.
               </p>
 
               <p>
                 Built using ARCA’s ethical, research-driven AI framework,
-                MedVeritas automates the claims journey from intake to
+                TrueClaim automates the claims journey from intake to
                 verification — detecting anomalies, highlighting deviations,
                 and ensuring that every claim is backed by transparent,
                 validated data.

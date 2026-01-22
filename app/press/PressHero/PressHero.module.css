@@ -83,14 +83,8 @@
 }
 
 .glasscard {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.18),
-    rgba(255, 255, 255, 0.05)
-  );
-
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(08px);
 
   padding: clamp(1.75rem, 4vw, 3rem);
   border-radius: clamp(1.25rem, 3vw, 2rem);

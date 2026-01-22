@@ -20,9 +20,9 @@
   border: 1px solid var(--btn-border, rgba(255, 255, 255, 0.6));
 }
 
-.outline:hover {
+/* .outline:hover {
   background: rgba(255, 255, 255, 0.1);
-}
+} */
 
 .filled {
   background: var(--btn-bg, #ffffff);
@@ -30,9 +30,9 @@
   border: 1px solid var(--btn-border, transparent);
 }
 
-.filled:hover {
+/* .filled:hover {
   background: #f0f0f0;
-}
+} */
 
 /* ===== SIZES ===== */
 

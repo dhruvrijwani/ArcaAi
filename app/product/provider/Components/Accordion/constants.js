@@ -87,71 +87,6 @@ export const clinicianAccordionData = [
     ),
   },
 
-
-  {
-    title: 'ARCA PULSE PLUS',
-    bgColor: '#008584',
-    textColor: '#fff',
-    content: (
-      <>
-        <h4>Target Segment</h4>
-        <p>
-          Clinics or clinicians who intend to automate the clinic’s outpatient
-          consulting operations. Additionally, the doctor is interested in
-          summarizing the patient interaction through a dictation module.
-        </p>
-
-        <h4>Product Attributes</h4>
-        <p>
-          This product provides comprehensive Electronic Health Record (EHR)
-          comprising of reception desk, consultation, laboratory and
-          prescription management.
-        </p>
-
-        <h5 className="roman-heading">Electronic Health Record</h5>
-
-        <p>
-          <strong>Medical Records / Reception Desk</strong>
-        </p>
-        <p>
-          Patient record management, queue management, intake vitals entry,
-          billing
-        </p>
-
-        <p>
-          <strong>Consultation</strong>
-        </p>
-        <p>
-          Consultation notes documentation, prior consultation records,
-          ICD-11 documentation of diagnosis, consultation / prescription
-          template
-        </p>
-
-        <p>
-          <strong>Laboratory Module</strong>
-        </p>
-        <p>
-          Order, Print / Export to test orders, customizable lab orders,
-          customizable lab packages, view lab reports, billing for lab tests
-        </p>
-
-        <p>
-          <strong>Prescription Module</strong>
-        </p>
-        <p>
-          Customizable drug bank, order and print/export prescription,
-          view prescription history, billing for medication
-        </p>
-
-        <h5 className="roman-heading">Dictation Module</h5>
-        <p>
-          Enables doctors to dictate medical reports and prescriptions
-        </p>
-      </>
-    ),
-  },
-
-
   {
     title: 'ARCA PULSE PRO',
     bgColor: '#485331',
@@ -295,7 +230,7 @@ export const clinicianAccordionData = [
 
 export const hospitalAccordionData = [
   {
-    title: 'ARCA HOSPITAL CORE',
+    title: 'SMART EHR',
     content: (
       <>
         <h4>Target Segment</h4>
@@ -303,8 +238,39 @@ export const hospitalAccordionData = [
       </>
     ),
   },
+
   {
-    title: 'ARCA HOSPITAL ENTERPRISE',
+    title: 'Ambient Listening',
+    content: (
+      <>
+        <h4>Target Segment</h4>
+        <p>Large multi-specialty hospitals...</p>
+      </>
+    ),
+  },
+
+  {
+    title: 'AI Suite',
+    content: (
+      <>
+        <h4>Target Segment</h4>
+        <p>Large multi-specialty hospitals...</p>
+      </>
+    ),
+  },
+
+  {
+    title: 'Lifestyle Medicine',
+    content: (
+      <>
+        <h4>Target Segment</h4>
+        <p>Large multi-specialty hospitals...</p>
+      </>
+    ),
+  },
+
+  {
+    title: 'Intelligence Dashboard',
     content: (
       <>
         <h4>Target Segment</h4>

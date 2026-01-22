@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './FinalCta.module.css'
 import Button from '../Button/Button'
-import Img from '../../../public/testimonialsimage.webp'
+import Img from '@/public/Cta/Cta_Image1.webp'
 import Image from 'next/image'
 
 function FinalCta() {
