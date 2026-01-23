@@ -231,50 +231,101 @@ export const clinicianAccordionData = [
 export const hospitalAccordionData = [
   {
     title: 'SMART EHR',
+    bgColor: '#F6FFEE',
+    textColor: '#111',
     content: (
       <>
-        <h4>Target Segment</h4>
-        <p>Hospitals requiring centralized operations...</p>
+        <h4>For Everyday Clinical Workflows</h4>
+        <ol>
+          <li>Personalised consultation view</li>
+          <li>Auto-generated history, ROS, progress notes</li>
+          <li>Auto-fill medication details and validation checks</li>
+          <li>Print-ready prescriptions</li>
+          <li>Lab test ordering + result attachment workflow</li>
+        </ol>
       </>
     ),
   },
 
   {
-    title: 'Ambient Listening',
+    title: 'AMBIENT LISTENING',
+    bgColor: '#D6FDFF',
+    textColor: '#111',
     content: (
       <>
-        <h4>Target Segment</h4>
-        <p>Large multi-specialty hospitals...</p>
+        <h4>AI-Generated Clinical Notes</h4>
+        <p>Automatically transcribes OP, IP, and ER conversations in real time — filtering noise, recognising medical vocabulary, and generating structured notes.</p>
+        <ol>
+          <li>Multi-lingual transcription (supports Indian accents & local languages)</li>
+          <li>Auto-generated history, ROS, progress notes</li>
+          <li>Deep EMR integration</li>
+          <li>Learns the clinician’s writing style</li>
+          <li>Reduces documentation time by up to 40%</li>
+        </ol>
       </>
     ),
   },
 
   {
-    title: 'AI Suite',
+    title: 'AI SUITE',
+    bgColor: '#485331',
+    textColor: '#fff',
     content: (
       <>
-        <h4>Target Segment</h4>
-        <p>Large multi-specialty hospitals...</p>
+        <h4>Ability to integrate with third party EHR/HIS solutions</h4>
+
+        <p>Ambient Listening Clinical Documentation Toolkit</p>
+        <ol>
+          <li>Proprietary NLP based STT service that converts OP and IP conversations into structured clinical notes.</li>
+          <li>Supports English and six Indian languages (Hindi, Bengali, Kannada, Tamil and Telugu)</li>
+          <li>Customizable output template as per physician’s needs</li>
+        </ol>
+
+        <p>Diagnostics Optical Character Recognition (OCR)</p>
+        <ol>
+          <li>Proprietary OCR system that can extract lab reports from patient’s documents and integrate them into the AI suite providing comprehensive documentation.</li>
+        </ol>
+
+        <p>AI DocAssist</p>
+        <ol>
+          <li>AI powered literature review system based on RAG-LLM which is trained on standard medical literature to aid the physician in quick referencing.</li>
+          <li>Customizable knowledge base that can be fine tuned on any specific resources that a physician or hospital requires.</li>
+        </ol>
+
+        <p>AI Clinical Chatbot</p>
+        <ol>
+          <li>Interactive text based chatbot system trained on medical literature and LLM capabilities for aiding physician in conversational thread-like interactions for quick referencing or treatment planning.</li>
+        </ol>
       </>
+
     ),
   },
 
   {
-    title: 'Lifestyle Medicine',
+    title: 'LIFESTYLE MEDICINE',
+    bgColor: '#1F3435',
+    textColor: '#fff',
     content: (
       <>
-        <h4>Target Segment</h4>
-        <p>Large multi-specialty hospitals...</p>
+        <h4>Lifestyle Speciality Module</h4>
+          <ol>
+            <li>Medicine suite tailored for lifestyle medicine practitioners or any medical specialist whose practice involves lifestyle monitoring and modifications.</li>
+            <li>Covers five pillars of lifestyle medicine – Nutrition, Physical activity, Sleep, Mental wellness and Social wellness.</li>
+            <li>Longitudinal monitoring of patient’s health through questionnaires developed by expert lifestyle specialists to capture knowledge, attitude and practice of the patient.</li>
+            <li> Information visualized through innovative dashboards.</li>
+          </ol>
       </>
+      
     ),
   },
 
   {
-    title: 'Intelligence Dashboard',
+    title: 'INTELLIGENCE DASHBOARD',
+    bgColor: '#1F3435',
+    textColor: '#fff',
     content: (
       <>
-        <h4>Target Segment</h4>
-        <p>Large multi-specialty hospitals...</p>
+        <h4>pending images....</h4>
       </>
     ),
   },

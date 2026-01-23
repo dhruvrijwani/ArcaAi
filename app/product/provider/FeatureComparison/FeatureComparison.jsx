@@ -4,7 +4,7 @@ import { productColumns, comparisonSections } from './comparisonData';
 
 export default function FeatureComparison() {
   return (
-    <div className="swcontainer">
+    // <div className="swcontainer">
     <section className={styles.wrapper}>
       <div className={styles.tableContainer}>
         <table className={styles.table}>
@@ -49,6 +49,6 @@ export default function FeatureComparison() {
         </table>
       </div>
     </section>
-    </div>
+    // </div>
   );
 }
