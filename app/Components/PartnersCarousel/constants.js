@@ -13,7 +13,7 @@ export const PARTNERS = [
   {
     id: '3',
     name: 'HILITE Group, Kochi',
-    logo: '/Partners/hilite.png',
+    logo: '/Partners/hiLite.png',
   },
   {
     id: '4',
