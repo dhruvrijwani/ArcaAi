@@ -26,7 +26,7 @@ function PartnersTestimonials() {
                     <div className={`${styles.testimonialCard} ${styles.card1}`}>
                         <div className={styles.testimonialBrand}>
                             <Image
-                            src="/testimonialsimage.webp"
+                            src="/Partners/BCMH.png"
                             alt=""
                             width={70}
                             height={56}

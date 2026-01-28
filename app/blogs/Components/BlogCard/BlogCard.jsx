@@ -1,19 +1,28 @@
+import Link from 'next/link'
 import styles from './BlogCard.module.css'
 
 function BlogCard({
     description,
     cardBg = "#111",
     textColor,
-    href = "#",
+    slug,
+    // href = "#",
     ariaLabel,
-    target = "_self"
+    target = "_self",
+    category,
+    date
 }) {
   return (
-        <a className={styles.postThumb} href={href} aria-label={ariaLabel} target={target} style={{ "--card-bg": cardBg, "--text-color":textColor }}>
+        <Link className={styles.postThumb} href={`/blogs/${slug}`} aria-label={ariaLabel} target={target} style={{ "--card-bg": cardBg, "--text-color":textColor }}>
 
           <div className={styles.item_meta}>
-            <div className={styles.meta_type}>News</div>
-            <time className={styles.meta_date}>December 2, 2025</time>
+            <div className={styles.meta_type}>{category}</div>
+            <time className={styles.meta_date}>{new Date(date).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+            </time>
 					</div>
 
         {/* Description */}
@@ -39,7 +48,7 @@ function BlogCard({
           <path fill="#fff" d="M35.43 45.104 23.71 81.57A12.146 12.146 0 0 1 12.145 90C5.438 90 0 84.562 0 77.854V16C0 7.163 7.163 0 16 0h55c8.837 0 16 7.163 16 16v2c0 8.837-7.163 16-16 16H50.663a16 16 0 0 0-15.232 11.104Z"></path>
         </svg>
       </div>
-    </a>
+    </Link>
   )
 }
 

@@ -2,7 +2,7 @@
 
 import styles from './FeaturedArticles.module.css'
 import BlogCard from '../Components/BlogCard/BlogCard'
-import blogCards from './blogCards'
+// import blogCards from './blogCards'
 import blogCardPresets from './blogCardPresets';
 import { useState } from 'react';
 import ShapedButton from '@/app/Components/ShapedButton/ShapedButton';
@@ -10,21 +10,20 @@ import ShapedButton from '@/app/Components/ShapedButton/ShapedButton';
 
 const ITEMS_PER_PAGE = 6;
 
-function FeaturedArticles() {
+function FeaturedArticles({ cards }) {
 
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
   const handleToggle = () => {
-    if (visibleCount >= blogCards.length) {
-      // Show less → reset to first 6
+    if (visibleCount >= cards.length) {
       setVisibleCount(ITEMS_PER_PAGE);
     } else {
-      // Show more → add next 6
       setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
     }
   };
 
-  const isAllVisible = visibleCount >= blogCards.length;
+
+  const isAllVisible = visibleCount >= cards.length;
   return (
     <section className={styles.FeaturedArticles}>
       <div className="swcontainer">
@@ -32,7 +31,7 @@ function FeaturedArticles() {
             <h2 className={styles.title}>Featured Articles</h2>
 
             <div className={styles.blogGrid}>
-              {blogCards.slice(0, visibleCount).map((card, index) => {
+              {cards.slice(0, visibleCount).map((card, index) => {
                 const preset =
                   blogCardPresets[index % blogCardPresets.length];
 
@@ -40,6 +39,9 @@ function FeaturedArticles() {
                   <BlogCard
                     key={card.id}
                     description={card.description}
+                    slug={card.slug}
+                    category={card.category}
+                    date={card.date}
                     cardBg={preset.cardBg}
                     textColor={preset.textColor}
                   />
@@ -48,7 +50,7 @@ function FeaturedArticles() {
             </div>
 
             {/* Button */}
-          {blogCards.length > ITEMS_PER_PAGE && (
+          {cards.length > ITEMS_PER_PAGE && (
             <div className={styles.buttonWrapper}>
               {/* <button
                 className={styles.toggleButton}
