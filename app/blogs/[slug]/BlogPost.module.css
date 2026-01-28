@@ -70,7 +70,7 @@
 }
 
 /* ===========================
-   FEATURED IMAGE
+   FEATURED IMAGE (RESPONSIVE)
 =========================== */
 .featuredImageWrapper {
   max-width: 1200px;
@@ -78,13 +78,54 @@
   padding: 0 20px;
 }
 
+/* Image itself */
 .featuredImage {
-  /* width: 100%; */
-  /* height: auto; */
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   border-radius: 20px;
   object-fit: cover;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
+  background: #e5e7eb; /* prevents CLS flash */
 }
+
+/* ===========================
+   IMAGE RESPONSIVE TUNING
+=========================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .featuredImageWrapper {
+    margin-top: -32px;
+  }
+
+  .featuredImage {
+    border-radius: 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .featuredImageWrapper {
+    max-width: 100%;
+    padding: 0;
+    margin-top: -24px;
+  }
+
+  .featuredImage {
+    aspect-ratio: 4 / 3;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .featuredImage {
+    aspect-ratio: 3 / 4;
+  }
+}
+
 
 /* ===========================
    CONTENT WRAPPER
