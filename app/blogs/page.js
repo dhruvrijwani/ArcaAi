@@ -4,6 +4,7 @@ import FeaturedArticlesServer from "./FeaturedArcticlesServer/FeaturedArcticlesS
 import FeaturedArticles from "./FeaturedArticles/FeaturedArticles";
 import Featuredproducts from "./Featuredproducts/Featuredproducts";
 import BlogHero from "./Hero/BlogHero";
+import { Suspense } from "react";
 
 
 export default function Blog() {
@@ -12,7 +13,10 @@ export default function Blog() {
     <BlogHero />
     <Featuredproducts />
     {/* <FeaturedArticles /> */}
-    <FeaturedArticlesServer />
+    {/* <FeaturedArticlesServer /> */}
+    <Suspense>
+      <FeaturedArticlesServer />
+    </Suspense>
     <BlogMatter />
     <Cta />
     </>
