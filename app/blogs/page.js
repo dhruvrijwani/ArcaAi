@@ -1,3 +1,7 @@
+export const dynamic = 'force-static';
+export const revalidate = 300;
+
+
 import BlogMatter from "./BlogMatters/BlogMatter";
 import Cta from "./Cta/Cta";
 import FeaturedArticlesServer from "./FeaturedArcticlesServer/FeaturedArcticlesServer";
@@ -13,10 +17,10 @@ export default function Blog() {
     <BlogHero />
     <Featuredproducts />
     {/* <FeaturedArticles /> */}
-    {/* <FeaturedArticlesServer /> */}
-    <Suspense>
+    <FeaturedArticlesServer />
+    {/* <Suspense>
       <FeaturedArticlesServer />
-    </Suspense>
+    </Suspense> */}
     <BlogMatter />
     <Cta />
     </>

@@ -20,7 +20,7 @@ export const leadershipData = [
     id: 3, 
     name: "Tushar Asthana", 
     designation: "CTO", 
-    image: "/Team/SuryaPrakash.webp",
+    image: "/Team/DrAsthana.webp",
     description: "Tushar is a seasoned technology leader with deep expertise in solution architecture and enterprise systems. With a strong computer science background and years of experience at Ericsson, he specializes in building reliable, future-ready platforms."
   },
 ];

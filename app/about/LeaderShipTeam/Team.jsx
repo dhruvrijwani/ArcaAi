@@ -28,6 +28,7 @@ function Team() {
                           key={leader.id}
                           image={leader.image}
                           name={leader.name}
+                          description={leader.description}
                           designation={leader.designation}
                           isFeatured={isCenterCard}
                         />

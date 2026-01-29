@@ -2,7 +2,8 @@ export async function getFeaturedPosts() {
   const res = await fetch(
     "https://lightgoldenrodyellow-wasp-126965.hostingersite.com/wp-json/wp/v2/posts?_embed",
     {
-      cache: "no-store",
+      // cache: "no-store",
+      next: { revalidate: 300 },
     }
   );
 

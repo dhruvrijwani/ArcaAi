@@ -129,6 +129,7 @@
   align-self: flex-end;
   background: #fff;
   color: #008584; 
+  font-family: var(--font-sora);
   border: none;
   padding: 12px 32px;
   border-radius: 30px;
