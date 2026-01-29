@@ -249,23 +249,47 @@ function ContactForm() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    if (!validate()) return
+    e.preventDefault();
+    setSubmitError('');
+    setSuccess(false);
 
-    setIsSubmitting(true)
+    if (!validate()) return;
+
+    setIsSubmitting(true);
+
+    const payload = {
+      firstName: formData.firstName.trim(),
+      lastName: formData.lastName.trim(),
+      email: formData.email.trim(),
+      phone: formData.phone.trim(),
+      interest: formData.interest,
+      message: formData.message.trim(),
+    };
 
     try {
-      // 🔗 later: replace with API route / server action
-      await new Promise(res => setTimeout(res, 1200))
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
 
-      setSuccess(true)
-      setFormData(initialState)
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.message || 'Failed to submit form');
+      }
+
+      setSuccess(true);
+      setFormData(initialState);
     } catch (err) {
-      setSubmitError('Something went wrong. Please try again.');
+      setSubmitError(err.message || 'Something went wrong. Please try again.');
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
+
 
   return (
     <section className={styles.contactSection}>
@@ -373,7 +397,7 @@ function ContactForm() {
 
           {success && (
             <p className={styles.success}>
-              Thank you! We’ll be in touch shortly.
+              Thank you for reaching out. Our team will get back to you shortly.
             </p>
           )}
         </form>

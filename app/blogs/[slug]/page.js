@@ -107,9 +107,11 @@ export default async  function BlogPage({ params }) {
       <div className={styles.hero}>
         <div className='swcontainer'>
           <div className={styles.heroContent}>
-            <h1 className={styles.title}>{post.title}</h1>
-            <div className={styles.meta}>
             <span className={styles.category}>{post.category}</span>
+
+            <h1 className={styles.title}>{post.title}</h1>
+            
+            <div className={styles.meta}>
               <span className={styles.separator}>•</span>
               <span className={styles.date}>{post.date}</span>
               <span className={styles.separator}>•</span>
