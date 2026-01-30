@@ -14,7 +14,7 @@ export default async function FeaturedArticlesServer() {
     date: post.date
   }));
 
-  // console.log("🧩 Mapped featured article cards:", cards);
+  // console.log("Mapped featured article cards:", cards);
 
   return <FeaturedArticles cards={cards} />;
 }
