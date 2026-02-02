@@ -2,6 +2,7 @@ import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import { sora, trajan } from "./fonts";
 import "./globals.css";
+import LenisProvider from "./Utils/LenisProvider";
 
 
 export const metadata = {
@@ -17,9 +18,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${sora.variable} ${trajan.variable}`}>
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <LenisProvider>
+          <Navbar />
+            {children}
+          <Footer />
+        </LenisProvider>
       </body>
     </html>
   );

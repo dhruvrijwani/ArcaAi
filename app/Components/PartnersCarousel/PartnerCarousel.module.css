@@ -7,7 +7,6 @@
 /* Full-bleed wrapper */
 .carouselWrap {
   width: 100vw;
-  /* margin-left: calc(50% - 50vw); */
 }
 
 .wrapper {
@@ -68,14 +67,23 @@
 }
 
 /* =========================
-   Controls
+   controlsWrap
 ========================= */
-.controls {
+.controlsWrap {
   display: flex;
   justify-content: flex-end;
   gap: 0.75rem;
   margin-top: 1.5rem;
 }
+
+.wrapper {
+  width: 100%;
+  max-width: 80rem; /* ~1280px */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
 
 /* =========================
    Arrow Buttons
@@ -97,12 +105,19 @@
 .arrowBtn svg {
   width: 20px;
   height: 20px;
-  stroke: rgba(255, 255, 255, 0.6);
+  stroke: rgba(255, 255, 255);
   fill: none;
-  stroke-width: 1.6;
+  stroke-width: 3.6;
   transition: stroke 0.3s ease;
 }
 
 .arrowBtn:hover svg {
   stroke: #9effa9;
+}
+
+@media (max-width: 480px) {
+  .arrowBtn {
+    display: none;
+  }
+  
 }

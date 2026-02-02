@@ -25,3 +25,27 @@ body {
     margin-inline: auto;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #111;
+  
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #008584;
+  border-radius: 20px;
+}
+

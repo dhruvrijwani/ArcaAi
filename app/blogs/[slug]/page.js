@@ -21,8 +21,12 @@ export async function generateMetadata({ params }) {
 
 
   if (!post || !post.yoast_head_json) {
-    return {};
+    return {
+      title: "Blog not found | ARCA AI",
+      description: "The requested blog could not be found.",
+    };
   }
+
 
   const yoast = post.yoast_head_json;
 

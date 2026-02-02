@@ -1,3 +1,5 @@
+import ImagesGrid from "../ImagesGrid/ImagesGrid";
+
 export const clinicianAccordionData = [
   {
     title: 'ARCA SPARK',
@@ -325,7 +327,16 @@ export const hospitalAccordionData = [
     textColor: '#fff',
     content: (
       <>
-        <h4>pending images....</h4>
+        <ImagesGrid
+        images={[
+          { src: '/DashboardImages/Dashboard1.jpeg', alt: 'Dashboard overview' },
+          { src: '/DashboardImages/Dashboard2.jpeg', alt: 'Analytics view' },
+          { src: '/DashboardImages/Dashboard3.jpeg', alt: 'Patient trends' },
+          { src: '/DashboardImages/Dashboard4.jpeg', alt: 'Performance metrics' },
+          { src: '/DashboardImages/Dashboard5.jpeg', alt: 'Revenue insights' },
+          { src: '/DashboardImages/Dashboard6.jpeg', alt: 'Alerts & monitoring' },
+        ]}
+      />
       </>
     ),
   },

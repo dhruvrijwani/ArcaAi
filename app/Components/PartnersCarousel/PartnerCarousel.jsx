@@ -22,6 +22,7 @@ export default function PartnerCarousel() {
   return (
     <section className={styles.section}>
       <div className={styles.carouselWrap}>
+        <div className={styles.wrapper}>
         <div ref={scrollRef} className={styles.carousel}>
           {PARTNERS.map((partner) => (
             <div key={partner.id} className={styles.item}>
@@ -29,9 +30,7 @@ export default function PartnerCarousel() {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className={styles.controlsWrap}>
+              <div className={styles.controlsWrap}>
         <button
           onClick={() => scroll("left")}
           className={styles.arrowBtn}
@@ -52,6 +51,11 @@ export default function PartnerCarousel() {
           </svg>
         </button>
       </div>
+        </div>
+        
+      </div>
+
+
     </section>
 
   );
