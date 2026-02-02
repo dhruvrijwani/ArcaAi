@@ -18,11 +18,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${sora.variable} ${trajan.variable}`}>
       <body>
-        <LenisProvider>
+        {/* <LenisProvider> */}
           <Navbar />
             {children}
           <Footer />
-        </LenisProvider>
+        {/* </LenisProvider> */}
       </body>
     </html>
   );
