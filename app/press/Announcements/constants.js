@@ -1,7 +1,7 @@
 export const AnnouncementsData = [
   {
     id: 1,
-    title: "MedVeritas introduced for Indian insurers",
+    title: "TrueClaim introduced for Indian insurers",
     description:
       "A claims intelligence solution enabling payers to detect fraud, automate verification, and build transparent networks with providers.",
     bgColor: "#DCE0D4",
