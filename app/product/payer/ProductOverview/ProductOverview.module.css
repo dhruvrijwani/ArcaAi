@@ -14,15 +14,16 @@
 /* LEFT IMAGE BLOCK */
 .leftImg {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  background: #dedede;
-  border-radius: clamp(2rem, 4vw, 3.5rem);
+  aspect-ratio: 16 / 9;
+  /* background: #dedede; */
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
 }
 
+
 .image {
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 

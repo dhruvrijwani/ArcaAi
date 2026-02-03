@@ -1,6 +1,3 @@
-// import RohitImg from "@/public/team/rohit-rajan.webp";
-// import SajeevImg from "@/public/team/sajeev-r.webp";
-// import ShibuImg from "@/public/team/shibu-ignatious.webp";
 import Img from "@/public/testimonialsimage.webp"
 
 export const QuotesData = [
@@ -10,7 +7,7 @@ export const QuotesData = [
       "Technology should listen as much as it diagnoses. Our goal is to restore empathy by reducing the burden placed on clinicians.",
     name: "Rohit Rajan",
     role: "Founder & CEO",
-    avatar: Img,
+    avatar: '/Team/RohitRanjan.webp',
   },
   {
     id: 2,
@@ -26,6 +23,6 @@ export const QuotesData = [
       "Healthcare innovation must be responsible, accountable, and clinically grounded.",
     name: "Dr. Shibu V. Ignatious",
     role: "Clinical Advisor",
-    avatar: Img,
+    avatar: '/Team/DrShibu.jpg',
   },
 ];

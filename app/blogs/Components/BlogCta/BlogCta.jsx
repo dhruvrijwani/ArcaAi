@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './BlogCta.module.css'
-import Img from '@/public/testimonialsimage.webp'
+import Img from '@/public/Cta/Cta_Image3.webp'
 import Image from 'next/image'
 import Button from '@/app/Components/Button/Button'
 

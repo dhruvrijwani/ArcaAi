@@ -26,7 +26,7 @@ export const leadershipData = [
     id: 4,
     name: "Dr. Shibu Ignatious",
     designation: "Medical Advisor",
-    image: "/Team/DrAsthana.webp",
+    image: "/Team/DrShibu.jpg",
     description: "Dr. Shibu is an experienced medical professional with a strong background in clinical practice and healthcare education. He has served as an assistant professor and held leadership roles in medical institutions, combining academic insight with real-world healthcare delivery."
   },
   {

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProductOverview.module.css";
 import Image from "next/image";
-import Img from "@/public/testimonialsimage.webp"
+import Img from "@/public/TrueClaimDashboard.webp"
 
 function ProductOverview() {
   return (
