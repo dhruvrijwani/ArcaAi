@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from './ProductCard.module.css';
+import Link from "next/link";
 
 export default function ProductCard({
     icon,
@@ -8,12 +9,12 @@ export default function ProductCard({
     description,
     cardBg = "#111",
     textColor,
-    href = "#",
+    href,
     ariaLabel,
     target = "_self"
 }) {
   return (
-    <a className={styles.postThumb} href={href} aria-label={ariaLabel || title} target={target} style={{ "--card-bg": cardBg, "--text-color":textColor }}>
+    <Link className={styles.postThumb} href={href} aria-label={ariaLabel || title} target={target} style={{ "--card-bg": cardBg, "--text-color":textColor }}>
         {/* Icon */}
         <div className={styles.cardIcon}>
             <Image
@@ -48,6 +49,6 @@ export default function ProductCard({
           <path fill="#fff" d="M35.43 45.104 23.71 81.57A12.146 12.146 0 0 1 12.145 90C5.438 90 0 84.562 0 77.854V16C0 7.163 7.163 0 16 0h55c8.837 0 16 7.163 16 16v2c0 8.837-7.163 16-16 16H50.663a16 16 0 0 0-15.232 11.104Z"></path>
         </svg>
       </div>
-    </a>
+    </Link >
   );
 }

@@ -7,6 +7,7 @@ const products = [
       "Real-time clinical note generation with multi-lingual support.",
     cardBg: "#F4FFE9",
     textColor: "#111",
+    href: "/product/provider"
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const products = [
       "India’s first lifestyle medicine EHR supporting the five pillars of health.",
     cardBg: "#485331",
     textColor: "#fff",
+    href: "/product/provider"
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const products = [
       "Evidence-backed, provider-curated clinical insights available in real time.",
     cardBg: "#FFF",
     textColor: "#111",
+    href: "/product/provider"
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const products = [
       "Seamless claim automation, fraud detection, and audit trails.",
     cardBg: "#162608",
     textColor: "#fff",
+    href: "/product/provider"
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const products = [
       "Offline-first community health intelligence system for rural care delivery.",
     cardBg: "#DCE0D4",
     textColor: "#111",
+    href: "/product/provider"
   },
 ];
 

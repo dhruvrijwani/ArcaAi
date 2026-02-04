@@ -26,6 +26,7 @@ function KeyProducts() {
                   description={product.description}
                   cardBg={product.cardBg}
                   textColor={product.textColor}
+                  href={product.href}
                 />
               ))}
             </div>

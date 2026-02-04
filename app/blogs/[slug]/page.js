@@ -72,7 +72,7 @@ export default async  function BlogPage({ params }) {
       month: 'long',
       day: 'numeric',
     }),
-    author: 'Dhruv Rijwani',
+    author: wpPost._embedded?.author?.[0]?.name || 'Arca Ai',
     featuredImage: wpPost._embedded?.['wp:featuredmedia']?.[0]?.source_url || null, // make sure this exists in /public
     // content: `
     //   <p>
@@ -119,7 +119,7 @@ export default async  function BlogPage({ params }) {
               <span className={styles.separator}>•</span>
               <span className={styles.date}>{post.date}</span>
               <span className={styles.separator}>•</span>
-              <span className={styles.author}>by {post.author}</span>
+              <span className={styles.author}>{post.author}</span>
             </div>
           </div>
         </div>
