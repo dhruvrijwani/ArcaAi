@@ -76,6 +76,7 @@
   background: #008584;
   border: none;
   color: #fff;
+  -webkit-text-fill-color: #fff;
   font-size: 1rem;
   font-family: var(--font-sora);
   letter-spacing: 0.2em;
