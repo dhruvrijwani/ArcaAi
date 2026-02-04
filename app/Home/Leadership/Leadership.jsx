@@ -34,7 +34,7 @@ function Leadership() {
                   </div>
                 </div>
     
-                <Button variant="filled" bgColor="#D6FDFF" textColor="#111">
+                <Button href='/about' variant="filled" bgColor="#D6FDFF" textColor="#111">
                   Meet The leadership
                 </Button>
 

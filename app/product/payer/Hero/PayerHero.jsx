@@ -36,10 +36,10 @@ function PayerHero() {
 
 
           <div className={styles.heroButtons}>
-            <Button variant="filled" bgColor="#008584" textColor="#fff">
+            <Button href='/contactus' variant="filled" bgColor="#008584" textColor="#fff">
                 Request A Demo
             </Button>
-            <Button variant="filled" bgColor="#F7F7F5" textColor="#000">
+            <Button href='/contactus' variant="filled" bgColor="#F7F7F5" textColor="#000">
                 Speak to our team
             </Button>
 

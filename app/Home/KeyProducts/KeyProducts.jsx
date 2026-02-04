@@ -31,7 +31,7 @@ function KeyProducts() {
               ))}
             </div>
 
-            <Button variant="filled" bgColor="#008584" textColor="#fff">
+            <Button href='/product/provider' variant="filled" bgColor="#008584" textColor="#fff">
               View All Products
             </Button>
 

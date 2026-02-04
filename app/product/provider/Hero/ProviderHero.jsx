@@ -36,10 +36,10 @@ function ProviderHero() {
 
 
           <div className={styles.heroButtons}>
-            <Button variant="filled" bgColor="#1F3435" textColor="#fff">
+            <Button href='/contactus' variant="filled" bgColor="#1F3435" textColor="#fff">
                 Get a Demo
             </Button>
-            <Button variant="filled" bgColor="#F7F7F5" textColor="#000">
+            <Button href='/contactus' variant="filled" bgColor="#F7F7F5" textColor="#000">
                 Speak to a Specialist
             </Button>
 

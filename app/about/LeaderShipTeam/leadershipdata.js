@@ -40,7 +40,7 @@ export const leadershipData = [
     id: 6,
     name: "Kevin Varghese",
     designation: "Director",
-    image: "/Team/DrAsthana.webp",
+    image: "/Team/kevin.webp",
     description: "Kevin brings over a decade of experience in business operations, finance, and supply chain management across multiple industries. He currently serves as Director at Arca AI Technology."
   },
 ];

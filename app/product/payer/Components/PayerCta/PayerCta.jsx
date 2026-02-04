@@ -17,10 +17,10 @@ function PayerCta() {
                 </h2>
             <p className={styles.desc}>See how MedVeritas can strengthen risk management, simplify claims, and protect your network from fraud.</p>
             <div className={styles.buttons}>
-                <Button variant="filled" bgColor="#008584" textColor="#fff">
+                <Button href='/contactus' variant="filled" bgColor="#008584" textColor="#fff">
                     Request a Demo
                 </Button>
-                <Button variant="outline" bgColor="#F7F7F5" borderColor="#008584" textColor="#111">
+                <Button href='/contactus' variant="outline" bgColor="#F7F7F5" borderColor="#008584" textColor="#111">
                     Contact Our Team
                 </Button>
             </div>

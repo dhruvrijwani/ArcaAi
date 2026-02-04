@@ -81,7 +81,7 @@ useGSAP(
                                 ARCA AI was created to bring simplicity, connection,
                                 and humanity back to care.
                             </p>
-                            <Button variant="filled" bgColor="#008584" textColor="#fff">
+                            <Button href='/about' variant="filled" bgColor="#008584" textColor="#fff">
                                 Our Story
                             </Button>
                                 

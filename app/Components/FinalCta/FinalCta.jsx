@@ -15,10 +15,10 @@ function FinalCta() {
                 <span className={styles.bold}>together</span></h2>
             <p className={styles.desc}>Whether you’re building the hospital of the future, advancing precision research, or improving community health -ARCA AI is your partner in ethical, connected innovation.</p>
             <div className={styles.buttons}>
-                <Button variant="filled" bgColor="#008584" textColor="#fff">
+                <Button href='/contactus' variant="filled" bgColor="#008584" textColor="#fff">
                     Get In Touch
                 </Button>
-                <Button variant="outline" bgColor="#F7F7F5" borderColor="#008584" textColor="#111">
+                <Button href='/contactus' variant="outline" bgColor="#F7F7F5" borderColor="#008584" textColor="#111">
                     Partnership Enquires
                 </Button>
             </div>
