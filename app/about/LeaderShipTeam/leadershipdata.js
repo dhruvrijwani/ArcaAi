@@ -1,5 +1,3 @@
-import Img from "@/public/testimonialsimage.webp";
-
 export const leadershipData = [
   {
     id: 1,

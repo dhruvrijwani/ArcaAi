@@ -15,7 +15,7 @@ export const QuotesData = [
       "Ethical AI isn’t optional. It is the foundation of sustainable progress in healthcare.",
     name: "Sajeev R",
     role: "Chief Risk Officer",
-    avatar: Img,
+    avatar: '/Team/Sanjeev.png',
   },
   {
     id: 3,

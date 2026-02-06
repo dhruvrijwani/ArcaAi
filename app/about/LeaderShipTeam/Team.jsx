@@ -4,7 +4,46 @@ import React from 'react'
 import styles from './team.module.css'
 import { leadershipData } from './leadershipdata'
 
-function Team() {
+async function getLeadershipTeam() {
+  try {
+    const res = await fetch(
+      'https://cms.arcaai.com/wp-json/wp/v2/leadership-team?_embed',
+      {
+        next: { revalidate: 3600 },
+      }
+    );
+
+    if (!res.ok) throw new Error('Failed to fetch');
+
+    const data = await res.json();
+
+    data.sort((a, b) => a.menu_order - b.menu_order);
+
+
+    return data;
+  } catch (error) {
+    console.error('WP fetch failed, using fallback:', error);
+    return null;
+  }
+}
+
+function normalizeLeaders(wpData) {
+  if (!Array.isArray(wpData)) return leadershipData;
+
+  return wpData.map((item, index) => ({
+    id: item.id,
+    name: item.title?.rendered || leadershipData[index]?.name,
+    designation: item.acf?.designation || leadershipData[index]?.designation,
+    description: item.acf?.description || leadershipData[index]?.description,
+    image:
+      item._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+      leadershipData[index]?.image,
+  }));
+}
+
+export default async function Team() {
+  const wpData = await getLeadershipTeam();
+  const leaders = normalizeLeaders(wpData);
     
   return (
         <section className={styles.TeamSection}>
@@ -20,7 +59,7 @@ function Team() {
     
                 <section className={styles.leaderssection}>
                   <div className={styles.grid}>
-                    {leadershipData.map((leader, index) => {
+                    {leaders.map((leader, index) => {
                       const isCenterCard = index % 3 === 1;
 
                       return (
@@ -46,5 +85,3 @@ function Team() {
         </section>
   )
 }
-
-export default Team

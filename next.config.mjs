@@ -6,7 +6,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'lightgoldenrodyellow-wasp-126965.hostingersite.com',
+        hostname: 'cms.arcaai.com',
       },
     ],
   },

@@ -1,6 +1,6 @@
 export async function getPostBySlug(slug) {
   const res = await fetch(
-    `https://lightgoldenrodyellow-wasp-126965.hostingersite.com/wp-json/wp/v2/posts?slug=${slug}&_embed`,
+    `https://cms.arcaai.com/wp-json/wp/v2/posts?slug=${slug}&_embed`,
     {
       cache: "no-store",
     }
