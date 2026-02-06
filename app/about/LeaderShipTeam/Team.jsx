@@ -9,7 +9,7 @@ async function getLeadershipTeam() {
     const res = await fetch(
       'https://cms.arcaai.com/wp-json/wp/v2/leadership-team?_embed',
       {
-        next: { revalidate: 3600 },
+        next: { revalidate: 300 },
       }
     );
 

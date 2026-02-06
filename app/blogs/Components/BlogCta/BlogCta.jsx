@@ -15,9 +15,6 @@ function BlogCta() {
             <p className={styles.desc}>Get the latest insights on clinical AI, lifestyle medicine, public health, and the future of healthcare technology.</p>
             <div className={styles.buttons}>
                 <Button variant="filled" bgColor="#008584" textColor="#fff">
-                    Subscribe to Updates
-                </Button>
-                <Button variant="outline" bgColor="#F7F7F5" borderColor="#008584" textColor="#111">
                     Read All Articles
                 </Button>
             </div>

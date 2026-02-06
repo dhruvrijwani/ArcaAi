@@ -267,3 +267,9 @@
     font-size: 22px;
   }
 }
+
+@media ( max-width: 480px) {
+  .itemDesc {
+    max-width: 90%;
+  }
+}
