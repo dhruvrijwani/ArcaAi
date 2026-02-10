@@ -6,7 +6,7 @@ import products from "./Products"
 
 function KeyProducts() {
   return (
-    <section className={styles.keyProducts}>
+    <section className={styles.keyProducts} id="keyproducts">
       <div className="swcontainer">
         <div className={styles.sectionWrapper}>
             <h2 className={styles.title}>Key Products</h2>

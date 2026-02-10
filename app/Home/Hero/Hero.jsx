@@ -76,7 +76,7 @@ function Hero() {
   );
 
   return (
-    <div ref={wrapperRef} className={styles.wrapper}>
+    <div ref={wrapperRef} className={styles.wrapper} id="hero">
       <div ref={videoRef} className={styles.videocontainer}>
         <video
           className={styles.videobg}
@@ -117,7 +117,7 @@ function Hero() {
                   Speak to our team
                 </Button>
 
-                <Button href='/product/provider' textColor="#D6FDFF" borderColor="#B1F0E0">
+                <Button href='#keyproducts' textColor="#D6FDFF" borderColor="#B1F0E0">
                   Check out our Products
                 </Button>
               </div>

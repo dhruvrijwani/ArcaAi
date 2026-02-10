@@ -46,7 +46,7 @@ export default async function Team() {
   const leaders = normalizeLeaders(wpData);
     
   return (
-        <section className={styles.TeamSection}>
+        <section className={styles.TeamSection} id="team">
           <div className="swcontainer">
             <div className={styles.sectionWrapper}>
                 <h2 className={styles.title}>Leadership Team</h2>

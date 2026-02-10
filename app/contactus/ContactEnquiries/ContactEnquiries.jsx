@@ -37,7 +37,7 @@ export default function ContactEnquiries() {
     { scope: sectionRef }
   );
   return (
-    <section ref={sectionRef} className={styles.section}>
+    <section ref={sectionRef} className={styles.section} id="partnershipenquiries">
       <div className={styles.wrapper}>
 
         <div className={`${styles.card} ${styles.cardDark}`}>

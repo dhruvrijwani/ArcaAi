@@ -76,13 +76,16 @@
   background: #008584;
   border: none;
   color: #fff;
-  -webkit-text-fill-color: #fff;
+  /* -webkit-text-fill-color: #fff; */
   font-size: 1rem;
   font-family: var(--font-sora);
   letter-spacing: 0.2em;
   font-weight: 600;
   cursor: pointer;
   transition: opacity 0.3s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .toggleButton:hover {
@@ -118,4 +121,12 @@
   color: #fff;
   border-color: transparent;
 }
+
+.toggleButton:hover,
+.toggleButton:focus,
+.toggleButton:active {
+  color: #fff;
+  background: #008584;
+}
+
 

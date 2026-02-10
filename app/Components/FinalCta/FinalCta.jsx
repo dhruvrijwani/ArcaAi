@@ -18,7 +18,7 @@ function FinalCta() {
                 <Button href='/contactus' variant="filled" bgColor="#008584" textColor="#fff">
                     Get In Touch
                 </Button>
-                <Button href='/contactus' variant="outline" bgColor="#F7F7F5" borderColor="#008584" textColor="#111">
+                <Button href='/contactus#partnershipenquiries' variant="outline" bgColor="#F7F7F5" borderColor="#008584" textColor="#111">
                     Partnership Enquires
                 </Button>
             </div>

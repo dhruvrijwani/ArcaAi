@@ -45,7 +45,7 @@ function FeaturedArticles({ cards }) {
 
   const isAllVisible = visibleCount >= cards.length;
   return (
-    <section className={styles.FeaturedArticles}>
+    <section className={styles.FeaturedArticles} id='featuredarcticle'>
       <div className="swcontainer">
         <div className={styles.sectionWrapper}>
             <h2 className={styles.title}>Featured Articles</h2>

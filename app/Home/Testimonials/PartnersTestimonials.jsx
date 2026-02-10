@@ -68,7 +68,7 @@ function PartnersTestimonials() {
     
                 </div>
     
-                <Button variant="filled" bgColor="#D6FDFF" textColor="#111">
+                <Button href='/press' variant="filled" bgColor="#D6FDFF" textColor="#111">
                   See All Collaborations
                 </Button>
     
