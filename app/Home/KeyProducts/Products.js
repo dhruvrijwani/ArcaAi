@@ -19,18 +19,18 @@ const products = [
     textColor: "#fff",
     href: "/product/provider"
   },
+  // {
+  //   id: 3,
+  //   icon: "/Icons/Icon1.png",
+  //   title: "Doc Assist",
+  //   description:
+  //     "Evidence-backed, provider-curated clinical insights available in real time.",
+  //   cardBg: "#FFF",
+  //   textColor: "#111",
+  //   href: "/product/provider"
+  // },
   {
     id: 3,
-    icon: "/Icons/Icon1.png",
-    title: "Doc Assist",
-    description:
-      "Evidence-backed, provider-curated clinical insights available in real time.",
-    cardBg: "#FFF",
-    textColor: "#111",
-    href: "/product/provider"
-  },
-  {
-    id: 4,
     icon: "/Icons/Icon4.png",
     title: "True Claim",
     description:
@@ -39,16 +39,16 @@ const products = [
     textColor: "#fff",
     href: "/product/provider"
   },
-  {
-    id: 5,
-    icon: "/Icons/Icon5.png",
-    title: "Arogya Grid",
-    description:
-      "Offline-first community health intelligence system for rural care delivery.",
-    cardBg: "#DCE0D4",
-    textColor: "#111",
-    href: "/product/provider"
-  },
+  // {
+  //   id: 5,
+  //   icon: "/Icons/Icon5.png",
+  //   title: "Arogya Grid",
+  //   description:
+  //     "Offline-first community health intelligence system for rural care delivery.",
+  //   cardBg: "#DCE0D4",
+  //   textColor: "#111",
+  //   href: "/product/provider"
+  // },
 ];
 
 export default products;
