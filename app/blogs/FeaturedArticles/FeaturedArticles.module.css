@@ -110,9 +110,13 @@
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.25s ease;
+  color: #000;
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.filterButton:hover {
+/* .filterButton:hover {
   background: rgba(0,0,0,0.05);
 }
 
@@ -120,13 +124,27 @@
   background: #008584;
   color: #fff;
   border-color: transparent;
+} */
+
+/* Hover */
+.filterButton:hover {
+  background: rgba(0,0,0,0.05);
+  color: #000;
 }
 
-.toggleButton:hover,
-.toggleButton:focus,
-.toggleButton:active {
-  color: #fff;
-  background: #008584;
+/* Focus / Active (mobile fix) */
+.filterButton:focus,
+.filterButton:active {
+  color: #000;
+  outline: none;
 }
+
+/* Active filter state */
+.filterButton.active {
+  background: #008584;
+  color: #fff;
+  border-color: transparent;
+}
+
 
 
