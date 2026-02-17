@@ -84,17 +84,18 @@ function Hero() {
           loop
           muted
           playsInline
-          preload="metadata"
+          preload="auto"
+          fetchPriority="high"
           poster="/Bgimages/Hero_Poster.webp"
         >
-          {/* <source
-            src="https://integratedbiosciences.com/wp-content/uploads/2025/10/integrated-loop-optimized.mp4"
-            type="video/mp4"
-          /> */}
           <source
-            src="/Videos/Arca_Hero.mp4"
+            src="https://cms.arcaai.com/wp-content/uploads/2026/02/Arca_Hero_10.mp4"
             type="video/mp4"
           />
+          {/* <source
+            src="/Videos/Arca_Hero.mp4"
+            type="video/mp4"
+          /> */}
         </video>
         <div className={styles.videooverlay}></div>
       </div>
