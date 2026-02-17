@@ -87,15 +87,16 @@ function Hero() {
           preload="auto"
           fetchPriority="high"
           poster="/Bgimages/Hero_Poster.webp"
+          src="/Videos/Arca_Hero_10.mp4"
         >
           {/* <source
             src="https://cms.arcaai.com/wp-content/uploads/2026/02/Arca_Hero_10.mp4"
             type="video/mp4"
           /> */}
-          <source
+          {/* <source
             src="/Videos/Arca_Hero_10.mp4"
             type="video/mp4"
-          />
+          /> */}
         </video>
         <div className={styles.videooverlay}></div>
       </div>
