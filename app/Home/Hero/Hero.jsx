@@ -88,14 +88,14 @@ function Hero() {
           fetchPriority="high"
           poster="/Bgimages/Hero_Poster.webp"
         >
-          <source
+          {/* <source
             src="https://cms.arcaai.com/wp-content/uploads/2026/02/Arca_Hero_10.mp4"
             type="video/mp4"
-          />
-          {/* <source
-            src="/Videos/Arca_Hero.mp4"
-            type="video/mp4"
           /> */}
+          <source
+            src="/Videos/Arca_Hero_10.mp4"
+            type="video/mp4"
+          />
         </video>
         <div className={styles.videooverlay}></div>
       </div>
