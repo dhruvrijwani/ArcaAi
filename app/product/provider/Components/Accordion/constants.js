@@ -231,6 +231,118 @@ export const clinicianAccordionData = [
 
 
 export const hospitalAccordionData = [
+
+  {
+    title: 'ARCA AURA',
+    bgColor: '#F6FFEE',
+    textColor: '#111',
+    content: (
+      <>
+        <h4>Radiology speed, clinical certainty.</h4>
+        <p>
+          An AI-powered radiology assistant designed to accelerate reporting
+          without compromising accuracy.
+        </p>
+        <p>
+          Arca Aura transforms voice dictation into structured, anomaly-aware
+          reports, helping radiologists move from interpretation to final
+          documentation in minutes.
+        </p>
+        <p>
+          Built for precision, safety, and seamless workflow integration.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    title: 'ARCA CURATE',
+    bgColor: '#D6FDFF',
+    textColor: '#111',
+    content: (
+      <>
+        <h4>From scattered records to clinical clarity.</h4>
+        <p>
+          Arca Curate reads, understands, and organizes complex medical
+          documents into coherent longitudinal patient summaries.
+        </p>
+        <p>
+          By turning unstructured data into actionable insights, it eliminates
+          manual sorting and reduces information gaps.
+        </p>
+        <p>
+          The result: faster decisions, clearer histories, and better care
+          continuity.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    title: 'ARCA QUEST',
+    bgColor: '#485331',
+    textColor: '#fff',
+    content: (
+      <>
+        <h4>Turning conversations into clinical intelligence.</h4>
+        <p>
+          Arca Quest captures natural voice interactions and converts them into
+          validated, structured clinical data.
+        </p>
+        <p>
+          Designed for interviews, assessments, and patient-reported inputs,
+          it preserves human connection while ensuring accuracy.
+        </p>
+        <p>
+          Multilingual, context-aware, and built for high-stakes clinical
+          environments.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    title: 'ARCA DISCHARGE AI',
+    bgColor: '#1F3435',
+    textColor: '#fff',
+    content: (
+      <>
+        <h4>The final step, flawlessly delivered.</h4>
+        <p>
+          Arca Discharge AI automates the most time-sensitive phase of
+          hospitalization: discharge documentation.
+        </p>
+        <p>
+          It synthesizes consolidated clinical data into structured summaries
+          through intuitive voice workflows.
+        </p>
+        <p>
+          Faster discharges, reduced clinician fatigue, and improved
+          medico-legal reliability.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    title: 'ARCA VOX',
+    bgColor: '#D6FDFF',
+    textColor: '#111',
+    content: (
+      <>
+        <h4>AI-Generated Clinical Notes</h4>
+        <p>Automatically transcribes OP, IP, and ER conversations in real time — filtering noise, recognising medical vocabulary, and generating structured notes.</p>
+        <ol>
+          <li>Multi-lingual transcription (supports Indian accents & local languages)</li>
+          <li>Auto-generated history, ROS, progress notes</li>
+          <li>Deep EMR integration</li>
+          <li>Learns the clinician’s writing style</li>
+          <li>Reduces documentation time by up to 40%</li>
+        </ol>
+      </>
+    ),
+  },  
+
   {
     title: 'SMART EHR',
     bgColor: '#F6FFEE',
@@ -244,25 +356,6 @@ export const hospitalAccordionData = [
           <li>Auto-fill medication details and validation checks</li>
           <li>Print-ready prescriptions</li>
           <li>Lab test ordering + result attachment workflow</li>
-        </ol>
-      </>
-    ),
-  },
-
-  {
-    title: 'AMBIENT LISTENING',
-    bgColor: '#D6FDFF',
-    textColor: '#111',
-    content: (
-      <>
-        <h4>AI-Generated Clinical Notes</h4>
-        <p>Automatically transcribes OP, IP, and ER conversations in real time — filtering noise, recognising medical vocabulary, and generating structured notes.</p>
-        <ol>
-          <li>Multi-lingual transcription (supports Indian accents & local languages)</li>
-          <li>Auto-generated history, ROS, progress notes</li>
-          <li>Deep EMR integration</li>
-          <li>Learns the clinician’s writing style</li>
-          <li>Reduces documentation time by up to 40%</li>
         </ol>
       </>
     ),
@@ -340,4 +433,5 @@ export const hospitalAccordionData = [
       </>
     ),
   },
+
 ];
