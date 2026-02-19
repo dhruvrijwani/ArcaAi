@@ -10,7 +10,7 @@ export default function LenisProvider({ children }) {
       easing: (t) =>
         t === 1 ? 1 : 1 - Math.pow(2, -10 * t), // professional easing
       smoothWheel: true,
-      smoothTouch: false,     // important for mobile UX
+      smoothTouch: true,     // important for mobile UX
     });
 
     function raf(time) {
