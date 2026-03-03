@@ -100,7 +100,7 @@
 }
 
 .heroText p {
-  font-size: 1rem;
+  font-size: clamp(1rem, 1.1vw, 1.2rem);
   letter-spacing: 0.2em;
   font-family: var(--font-sora);
   font-weight: 700;

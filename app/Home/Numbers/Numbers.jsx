@@ -20,11 +20,11 @@ function Numbers() {
                 />
                 <NumbersCard 
                 value="4+/5"
-                description="Average feedback rating from adopted doctors for Ambient Listening"
+                description="Average feedback rating from adopted doctors for Artificial Clinical Intelligence Suite"
                 />
                 <NumbersCard 
                 value="30%"
-                description="Improved operational efficiency on no-shows & differentiated care for VIP patients with ARCA AI Patient engagement"
+                description="Improved operational efficiency on no-shows & differentiated care for VIP patients with ARCA AI Patient engagement system"
                 />
             </div>
         </div>

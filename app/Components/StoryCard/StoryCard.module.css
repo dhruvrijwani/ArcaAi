@@ -34,15 +34,25 @@
 
 .cardDesc {
     font-family: var(--font-sora);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 1.8px;
 }
 
-.highlight {
+/* .highlight {
     color: rgba(99, 127, 74, 1);
     text-decoration: underline;
     font-weight: 600;
+} */
+
+.highlight {
+    background: linear-gradient(135deg, rgba(99,127,74,0.15), rgba(99,127,74,0.35));
+    color: rgba(99, 127, 74, 1);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: underline;
 }
 
 .storyflex {

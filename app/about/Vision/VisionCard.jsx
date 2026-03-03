@@ -51,15 +51,15 @@ function VisionCard() {
                 <ul className={styles.missionList}>
                   <li className={styles.missionItem}>
                     <span className={styles.iconWrap}>
-                      <img src="/Icons/about1.png" alt="Deliver better care" />
+                      <img src="/Icons/about1.png" alt="Deliver better quality care" />
                     </span>
-                    <span className={styles.text}>Deliver better care</span>
+                    <span className={styles.text}>Deliver better quality care</span>
                   </li>
                   <li className={styles.missionItem}>
                     <span className={styles.iconWrap}>
-                      <img src="/Icons/about2.png" alt="Operate with accuracy" />
+                      <img src="/Icons/about2.png" alt="Operate with greater effeciency" />
                     </span>
-                    <span className={styles.text}>Operate with greater accuracy</span>
+                    <span className={styles.text}>Operate with greater effeciency</span>
                   </li>
 
                   <li className={styles.missionItem}>
@@ -71,9 +71,9 @@ function VisionCard() {
 
                   <li className={styles.missionItem}>
                     <span className={styles.iconWrap}>
-                      <img src="/Icons/about4.png" alt="Lead healthier lives" />
+                      <img src="/Icons/about4.png" alt="Lead healthier life" />
                     </span>
-                    <span className={styles.text}>And lead healthier lives</span>
+                    <span className={styles.text}>Lead healthier life</span>
                   </li>
                 </ul>
               </div>

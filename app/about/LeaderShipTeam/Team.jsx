@@ -51,7 +51,7 @@ export default async function Team() {
             <div className={styles.sectionWrapper}>
                 <h2 className={styles.title}>Leadership Team</h2>
                 <p className={styles.description}>
-                    ARCA AI is led by experts across medicine, enterprise technology, data science, and public health.
+                    ARCA AI is led by experts across healthcare, enterprise technology, data science, and public health.
                 </p>
                 <p className={styles.description}>
                     Together, they bring more than 150 years of combined experience in building trustworthy, scalable, and clinically meaningful systems.

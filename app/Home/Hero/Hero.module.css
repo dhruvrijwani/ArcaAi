@@ -91,7 +91,7 @@
 }
 
 .pText {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.8;
     letter-spacing: 3.6px;
     font-family: var(--font-sora);
@@ -219,7 +219,7 @@
   }
 
   .pText {
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 2px;
   }
 }
@@ -280,6 +280,10 @@
   background: #B1F0E0;
   flex-shrink: 0;
   margin-top: 0.35rem;
+}
+
+.comingsoon {
+  color:#B1F0E0
 }
 
 /* RESPONSIVE SAFETY */

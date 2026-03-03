@@ -11,7 +11,7 @@ function KeyProducts() {
         <div className={styles.sectionWrapper}>
             <h2 className={styles.title}>Key Products</h2>
             <p className={styles.description}>
-              ARCA’s proprietary AI modules are built from scratch. Every
+              ARCA’s AI modules are fully proprietary, built from the ground up with in-house expertise. Every
               product blends clinical expertise with robust engineering.
             </p>
 

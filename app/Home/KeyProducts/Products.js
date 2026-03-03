@@ -2,19 +2,20 @@ const products = [
   {
     id: 1,
     icon: "/Icons/Icon1.png",
-    title: "Ambient Listening AI",
+    title: "Artificial Clinical Intelligence Suite",
     description:
-      "Real-time clinical note generation with multi-lingual support.",
+      "From Ambient AI Clinical Note Generation and Radiology Report Generation to Computer Vision AI to Clinical Decision Support",
     cardBg: "#F4FFE9",
     textColor: "#111",
     href: "/product/provider"
   },
+
   {
     id: 2,
     icon: "/Icons/Icon2.png",
     title: "Lifestyle EHR",
     description:
-      "India’s first lifestyle medicine EHR supporting the five pillars of health.",
+      "India’s first lifestyle medicine EHR supporting the five pillars of lifestyle health.",
     cardBg: "#485331",
     textColor: "#fff",
     href: "/product/provider"

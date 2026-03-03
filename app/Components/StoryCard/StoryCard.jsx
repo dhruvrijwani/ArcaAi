@@ -70,7 +70,7 @@ useGSAP(
                             <div className={styles.leftinfo}>
                             <p className={`${styles.cardDesc} ${styles.highlight}`}>A healthcare system that listens first</p>
                             <p className={styles.cardDesc}>
-                                The Digital Ark of Anno-Domini : Arca is the ark which sails in the
+                                <strong>The Digital Ark of Anno-Domini : </strong> Arca is the ark which sails in the
                                 flood of digital data similar to Noah’s Ark that survived the great flood.
                             </p>
                             <p className={styles.cardDesc}>
@@ -81,7 +81,7 @@ useGSAP(
                                 ARCA AI was created to bring simplicity, connection,
                                 and humanity back to care.
                             </p>
-                            <Button href='/about' variant="filled" bgColor="#008584" textColor="#fff">
+                            <Button href='/about#our-story' variant="filled" bgColor="#008584" textColor="#fff">
                                 Our Story
                             </Button>
                                 

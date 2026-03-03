@@ -56,7 +56,7 @@ function PartnersTestimonials() {
 
                         {/* Description */}
                         <p className={styles.testimonialDesc}>
-                            “Arogya Grid strengthens continuity of care in remote communities—something we’ve struggled with for years.”
+                            “Arogya Grid strengthens continuity of care in remote communities — something we’ve struggled with for years.”
                         </p>
 
                         {/* Description */}

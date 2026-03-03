@@ -48,7 +48,7 @@ function OurStory() {
 
 
   return (
-    <section ref={sectionRef} className={styles.section}>
+    <section ref={sectionRef} className={styles.section} id="our-story">
       <div className={styles.wrapper}>
         <h2 className={styles.title} data-reveal>
           Our <span>Story</span>

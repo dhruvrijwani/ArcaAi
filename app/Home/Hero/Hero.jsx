@@ -152,20 +152,20 @@ function Hero() {
                   </span>{" "}
                   — your technology shouldn’t be either.
                 </p>
-                <Button
+                {/* <Button
                   variant="filled"
                   bgColor="#008584"
                   textColor="#fff"
                 >
                   Discover our verticals
-                </Button>
+                </Button> */}
               </div>
 
               <div className={styles.section2Right}>
                 <h1 className={styles.pText}>
                   ARCA AI bridges the{" "}
                   <span className={styles.neonGreen}>
-                    three pillars of healthcare
+                    four pillars of healthcare
                   </span>{" "}
                   today with interoperable, human-centric intelligence:
                 </h1>
@@ -199,6 +199,13 @@ function Hero() {
                     <div className={styles.timelineContent}>
                       <span className={styles.timelineBadge}>Payers</span> – Automate claims, detect fraud, and
                       gain real-time visibility across networks.
+                    </div>
+                  </div>
+
+                  <div className={styles.timelineItem}>
+                    <span className={styles.timelineDot}></span>
+                    <div className={styles.timelineContent}>
+                      <span className={styles.timelineBadge}>Pharma</span> – Intelligence layer for drug discovery and clinical trials <span className={styles.comingsoon}>(coming soon)</span>.
                     </div>
                   </div>
                 </div>

@@ -12,7 +12,7 @@ function Partners() {
         <div className={styles.sectionWrapper}>
             <h2 className={styles.partnersTitle}>Trusted by leaders shaping <br /> the future of healthcare</h2>
             <p className={styles.partnersDescription}>
-                ARCA AI collaborates with pioneering institutions, driving clinical excellence, community medicine, and advanced research.
+                ARCA AI collaborates with pioneering institutions, driving clinical excellence, community wellness, and advanced research.
             </p>
 
             <Badge bgColor="#111" textColor="#C2EA9C">Featured Partners</Badge>
