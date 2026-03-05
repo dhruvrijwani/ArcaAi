@@ -15,8 +15,8 @@ export default function AddressSection() {
 
           <div className={styles.meta}>
             <span className={styles.label}>SUPPORT EMAIL:</span>
-            <a href="mailto:support@arca.ai" className={styles.link}>
-              support@arca.ai
+            <a href="mailto:corporate@arcaai.com" className={styles.link}>
+              corporate@arcaai.com
             </a>
           </div>
         </div>
@@ -26,8 +26,8 @@ export default function AddressSection() {
 
           <div className={styles.address}>
             <p>ARCA AI</p>
-            <p>Kivotos AI Technology Pvt. Ltd.</p>
-            <p><strong>Bangalore, India</strong></p>
+            <p>148/1/144/7 Doddanekkundi Industrial Area, NOVEL OFFICE WORKHUB, 3RD FLOOR AND TERRACE, DODDANEKKUNDI INDUSTRIAL AREA</p>
+            <p><strong>BANGALORE - 560048, India</strong></p>
           </div>
         </div>
       </div>

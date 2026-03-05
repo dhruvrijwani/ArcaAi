@@ -52,8 +52,8 @@ export default function ContactEnquiries() {
 
           <div className={styles.right}>
             <span className={styles.label}>PARTNERSHIPS</span>
-            <a href="mailto:partnerships@arca.ai" className={styles.link}>
-              partnerships@arca.ai
+            <a href="mailto:corporate@arcaai.com" className={styles.link}>
+              corporate@arcaai.com
             </a>
           </div>
         </div>
@@ -69,8 +69,8 @@ export default function ContactEnquiries() {
 
           <div className={styles.right}>
             <span className={styles.label}>PRESS EMAIL</span>
-            <a href="mailto:press@arca.ai" className={styles.link}>
-              press@arca.ai
+            <a href="corporate@arcaai.com" className={styles.link}>
+              corporate@arcaai.com
             </a>
           </div>
         </div>
@@ -87,8 +87,8 @@ export default function ContactEnquiries() {
 
           <div className={styles.right}>
             <span className={styles.label}>CAREERS EMAIL</span>
-            <a href="mailto:careers@arca.ai" className={styles.link}>
-              careers@arca.ai
+            <a href="mailto:corporate@arcaai.com" className={styles.link}>
+              corporate@arcaai.com
             </a>
           </div>
         </div>

@@ -4,7 +4,7 @@ const products = [
     icon: "/Icons/Icon1.png",
     title: "Artificial Clinical Intelligence Suite",
     description:
-      "From Ambient AI Clinical Note Generation and Radiology Report Generation to Computer Vision AI to Clinical Decision Support",
+      "A suit of products ranging from Ambient AI clinical note generation to Radiology report.",
     cardBg: "#F4FFE9",
     textColor: "#111",
     href: "/product/provider"
